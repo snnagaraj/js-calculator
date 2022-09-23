@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1180px;
+    /* background-color: blueviolet; */
+}
+.index{
+    width: 30%;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 500px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    box-shadow: 0 0 3px 1px rgb(212, 204, 204);
+}
+.call-input input{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 20px;
+}
+.action-input{
+    margin-top: 30px;
+}
+.action-input button{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.action-input button:hover{
+    background-color: rgb(50, 94, 240);
+    color: white;
+}
+.row1-button{
+    margin-left: 20px;
+}
+.row2-button{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.row3-button{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.row4-button{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.row5-button{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.row1-button button{
+    width: 76px;
+    height: 50px;
+}
+.row2-button button{
+    width: 76px;
+    height: 50px;
+}
+.row3-button button{
+    width: 76px;
+    height: 50px;
+}
+.row4-button button{
+    width: 76px;
+    height: 50px;
+}
+.row5-button button{
+    width: 76px;
+    height: 50px;
+    margin-right: 3px;
+}
+.row5-button{
+    display: flex;
+    margin-left: 20px;
+}
+.main-button button{
+    width: 157px;
+    border-radius: 40px;
+}
